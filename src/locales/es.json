@@ -1,0 +1,143 @@
+{
+  "brand": {
+    "name": "ChronoSpend",
+    "tagline": "PLANIFICA · GASTA · SIMPLIFICA"
+  },
+
+  "nav": {
+    "dashboard": "Panel",
+    "schedule": "Agenda",
+    "expenses": "Gastos",
+    "signOut": "Cerrar sesión"
+  },
+
+  "auth": {
+    "welcomeBack": "Bienvenido de nuevo",
+    "createAccount": "Crear una cuenta",
+    "signInSub": "Inicia sesión para acceder a tu agenda y gastos.",
+    "signUpSub": "Regístrate para comenzar a gestionar tu agenda y gastos.",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "password": "Contraseña",
+    "passwordPlaceholder": "••••••••",
+    "errorEmailPassword": "Por favor ingresa tu correo y contraseña.",
+    "errorPasswordLength": "La contraseña debe tener al menos 6 caracteres.",
+    "confirmEmail": "Revisa tu correo para el enlace de confirmación y luego inicia sesión.",
+    "loading": "Por favor espera…",
+    "signIn": "Iniciar sesión",
+    "signUp": "Registrarse",
+    "createAccountBtn": "Crear cuenta",
+    "noAccount": "¿No tienes cuenta?",
+    "alreadyAccount": "¿Ya tienes cuenta?"
+  },
+
+  "dashboard": {
+    "goodMorning": "Buenos días",
+    "goodAfternoon": "Buenas tardes",
+    "goodEvening": "Buenas noches",
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "todayEvents": "EVENTOS DE HOY",
+    "upcomingEvents": "PRÓXIMOS EVENTOS",
+    "thisMonthSpent": "GASTO DEL MES",
+    "transactions": "TRANSACCIONES",
+    "thisMonth": "Este mes",
+    "upcomingEventsPanel": "Próximos eventos",
+    "noUpcomingEvents": "No hay próximos eventos",
+    "thisWeekSpending": "Gastos de esta semana",
+    "noSpendingThisWeek": "No hay gastos registrados esta semana",
+    "total": "Total"
+  },
+
+  "schedule": {
+    "title": "Agenda",
+    "sub": "Gestiona tus eventos y citas",
+    "subscribe": "Suscribirse",
+    "import": "Importar",
+    "export": "Exportar",
+    "newEvent": "+ Nuevo evento",
+    "month": "Mes",
+    "week": "Semana",
+    "year": "Año",
+    "selectDay": "Selecciona un día para ver los eventos",
+    "noEventsToday": "No hay eventos este día"
+  },
+
+  "event": {
+    "editTitle": "Editar evento",
+    "newTitle": "Nuevo evento",
+    "tabSingle": "Único",
+    "tabRange": "Período",
+    "tabImport": "Importar",
+    "date": "Fecha",
+    "start": "Inicio",
+    "end": "Fin",
+    "titlePlaceholder": "Título del evento",
+    "notesPlaceholder": "Notas (opcional)",
+    "spansdays": "Abarca {{count}} día(s)",
+    "delete": "Eliminar",
+    "exportBtn": "↓ Exportar",
+    "update": "Actualizar",
+    "addEvent": "Agregar evento",
+    "importBtn": "Importar {{count}} evento(s)",
+    "dropZonePrimary": "Suelta un archivo .ics aquí",
+    "dropZoneSecondary": "o haz clic para explorar — compatible con Google Calendar, Outlook, Apple Calendar",
+    "errorInvalidFile": "Por favor selecciona un archivo .ics válido.",
+    "errorNoEvents": "No se encontraron eventos en este archivo.",
+    "errorParseFailed": "No se pudo analizar este archivo.",
+    "importReady": "Se encontraron {{count}} evento(s) — listo para importar"
+  },
+
+  "confirm": {
+    "deleteQuestion": "¿Eliminar?",
+    "cancel": "Cancelar",
+    "delete": "Eliminar"
+  },
+
+  "expenses": {
+    "title": "Gastos",
+    "sub": "Rastrea y gestiona tus gastos",
+    "reportSub": "Informe mensual de gastos",
+    "addExpense": "Agregar gasto",
+    "editExpense": "Editar gasto",
+    "saveChanges": "Guardar cambios",
+    "cancel": "Cancelar",
+    "back": "Volver",
+    "searchPlaceholder": "Buscar gastos...",
+    "noExpensesFound": "No se encontraron gastos.",
+    "allCategories": "Todas las categorías",
+    "filterByDate": "Filtrar por fecha",
+    "dateRangeTitle": "Seleccionar rango de fechas",
+    "from": "Desde",
+    "to": "Hasta",
+    "dateStart": "Inicio",
+    "dateEnd": "Fin",
+    "clear": "Limpiar",
+    "apply": "Aplicar",
+    "monthlyReport": "Informe mensual",
+    "statTotal": "TOTAL",
+    "statThisMonth": "ESTE MES",
+    "statDailyAvg": "PROMEDIO DIARIO",
+    "statTopCategory": "CATEGORÍA PRINCIPAL",
+    "moreSuffix": "+{{count}} más",
+    "fieldName": "Nombre",
+    "namePlaceholder": "ej. Café y almuerzo",
+    "fieldAmount": "Monto",
+    "fieldDate": "Fecha",
+    "fieldCategory": "Categoría",
+    "errorName": "Por favor ingresa un nombre.",
+    "errorAmount": "Por favor ingresa un monto válido.",
+    "errorDate": "Por favor selecciona una fecha.",
+    "categories": {
+      "food": "Comida",
+      "transport": "Transporte",
+      "entertainment": "Entretenimiento",
+      "shopping": "Compras",
+      "bills": "Facturas",
+      "health": "Salud",
+      "education": "Educación",
+      "travel": "Viajes",
+      "other": "Otro"
+    }
+  }
+}

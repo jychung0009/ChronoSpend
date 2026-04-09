@@ -1,0 +1,143 @@
+{
+  "brand": {
+    "name": "ChronoSpend",
+    "tagline": "일정 · 지출 · 단순하게"
+  },
+
+  "nav": {
+    "dashboard": "대시보드",
+    "schedule": "일정",
+    "expenses": "지출",
+    "signOut": "로그아웃"
+  },
+
+  "auth": {
+    "welcomeBack": "돌아오신 걸 환영해요",
+    "createAccount": "계정 만들기",
+    "signInSub": "로그인하여 일정과 지출을 확인하세요.",
+    "signUpSub": "가입하여 일정과 지출을 관리해보세요.",
+    "email": "이메일",
+    "emailPlaceholder": "you@example.com",
+    "password": "비밀번호",
+    "passwordPlaceholder": "••••••••",
+    "errorEmailPassword": "이메일과 비밀번호를 입력해주세요.",
+    "errorPasswordLength": "비밀번호는 최소 6자 이상이어야 합니다.",
+    "confirmEmail": "확인 링크를 이메일로 보냈습니다. 확인 후 로그인해주세요.",
+    "loading": "잠시만요…",
+    "signIn": "로그인",
+    "signUp": "회원가입",
+    "createAccountBtn": "계정 만들기",
+    "noAccount": "계정이 없으신가요?",
+    "alreadyAccount": "이미 계정이 있으신가요?"
+  },
+
+  "dashboard": {
+    "goodMorning": "좋은 아침이에요",
+    "goodAfternoon": "좋은 오후예요",
+    "goodEvening": "좋은 저녁이에요",
+    "today": "오늘",
+    "tomorrow": "내일",
+    "todayEvents": "오늘의 일정",
+    "upcomingEvents": "다가오는 일정",
+    "thisMonthSpent": "이번 달 지출",
+    "transactions": "거래 내역",
+    "thisMonth": "이번 달",
+    "upcomingEventsPanel": "다가오는 일정",
+    "noUpcomingEvents": "다가오는 일정이 없습니다",
+    "thisWeekSpending": "이번 주 지출",
+    "noSpendingThisWeek": "이번 주 지출 내역이 없습니다",
+    "total": "합계"
+  },
+
+  "schedule": {
+    "title": "일정",
+    "sub": "일정과 약속을 관리하세요",
+    "subscribe": "구독",
+    "import": "가져오기",
+    "export": "내보내기",
+    "newEvent": "+ 새 일정",
+    "month": "월",
+    "week": "주",
+    "year": "연",
+    "selectDay": "날짜를 선택하면 일정을 볼 수 있어요",
+    "noEventsToday": "이 날의 일정이 없습니다"
+  },
+
+  "event": {
+    "editTitle": "일정 수정",
+    "newTitle": "새 일정",
+    "tabSingle": "단일",
+    "tabRange": "기간",
+    "tabImport": "가져오기",
+    "date": "날짜",
+    "start": "시작",
+    "end": "종료",
+    "titlePlaceholder": "일정 제목",
+    "notesPlaceholder": "메모 (선택사항)",
+    "spansdays": "{{count}}일 기간",
+    "delete": "삭제",
+    "exportBtn": "↓ 내보내기",
+    "update": "수정",
+    "addEvent": "일정 추가",
+    "importBtn": "{{count}}개 일정 가져오기",
+    "dropZonePrimary": ".ics 파일을 여기에 놓으세요",
+    "dropZoneSecondary": "또는 클릭하여 탐색 — Google 캘린더, Outlook, Apple 캘린더 지원",
+    "errorInvalidFile": "유효한 .ics 캘린더 파일을 선택해주세요.",
+    "errorNoEvents": "이 파일에서 일정을 찾을 수 없습니다.",
+    "errorParseFailed": "파일을 파싱할 수 없습니다.",
+    "importReady": "{{count}}개의 일정을 찾았습니다 — 가져올 준비가 됐어요"
+  },
+
+  "confirm": {
+    "deleteQuestion": "삭제할까요?",
+    "cancel": "취소",
+    "delete": "삭제"
+  },
+
+  "expenses": {
+    "title": "지출",
+    "sub": "지출을 추적하고 관리하세요",
+    "reportSub": "월간 지출 보고서",
+    "addExpense": "지출 추가",
+    "editExpense": "지출 수정",
+    "saveChanges": "저장",
+    "cancel": "취소",
+    "back": "뒤로",
+    "searchPlaceholder": "지출 검색...",
+    "noExpensesFound": "지출 내역이 없습니다.",
+    "allCategories": "전체 카테고리",
+    "filterByDate": "날짜 필터",
+    "dateRangeTitle": "날짜 범위 선택",
+    "from": "시작일",
+    "to": "종료일",
+    "dateStart": "시작",
+    "dateEnd": "종료",
+    "clear": "초기화",
+    "apply": "적용",
+    "monthlyReport": "월간 보고서",
+    "statTotal": "합계",
+    "statThisMonth": "이번 달",
+    "statDailyAvg": "일평균",
+    "statTopCategory": "주요 카테고리",
+    "moreSuffix": "+{{count}}개 더",
+    "fieldName": "이름",
+    "namePlaceholder": "예: 커피 & 점심",
+    "fieldAmount": "금액",
+    "fieldDate": "날짜",
+    "fieldCategory": "카테고리",
+    "errorName": "이름을 입력해주세요.",
+    "errorAmount": "유효한 금액을 입력해주세요.",
+    "errorDate": "날짜를 선택해주세요.",
+    "categories": {
+      "food": "음식",
+      "transport": "교통",
+      "entertainment": "엔터테인먼트",
+      "shopping": "쇼핑",
+      "bills": "청구서",
+      "health": "건강",
+      "education": "교육",
+      "travel": "여행",
+      "other": "기타"
+    }
+  }
+}

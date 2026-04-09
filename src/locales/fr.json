@@ -1,0 +1,143 @@
+{
+  "brand": {
+    "name": "ChronoSpend",
+    "tagline": "PLANIFIER · DÉPENSER · SIMPLIFIER"
+  },
+
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "schedule": "Agenda",
+    "expenses": "Dépenses",
+    "signOut": "Se déconnecter"
+  },
+
+  "auth": {
+    "welcomeBack": "Bon retour",
+    "createAccount": "Créer un compte",
+    "signInSub": "Connectez-vous pour accéder à votre agenda et vos dépenses.",
+    "signUpSub": "Inscrivez-vous pour commencer à suivre votre agenda et vos dépenses.",
+    "email": "E-mail",
+    "emailPlaceholder": "vous@exemple.com",
+    "password": "Mot de passe",
+    "passwordPlaceholder": "••••••••",
+    "errorEmailPassword": "Veuillez entrer votre e-mail et votre mot de passe.",
+    "errorPasswordLength": "Le mot de passe doit contenir au moins 6 caractères.",
+    "confirmEmail": "Vérifiez votre e-mail pour un lien de confirmation, puis connectez-vous.",
+    "loading": "Veuillez patienter…",
+    "signIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "createAccountBtn": "Créer un compte",
+    "noAccount": "Pas encore de compte ?",
+    "alreadyAccount": "Vous avez déjà un compte ?"
+  },
+
+  "dashboard": {
+    "goodMorning": "Bonjour",
+    "goodAfternoon": "Bon après-midi",
+    "goodEvening": "Bonsoir",
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain",
+    "todayEvents": "ÉVÉNEMENTS DU JOUR",
+    "upcomingEvents": "ÉVÉNEMENTS À VENIR",
+    "thisMonthSpent": "DÉPENSES DU MOIS",
+    "transactions": "TRANSACTIONS",
+    "thisMonth": "Ce mois-ci",
+    "upcomingEventsPanel": "Événements à venir",
+    "noUpcomingEvents": "Aucun événement à venir",
+    "thisWeekSpending": "Dépenses de la semaine",
+    "noSpendingThisWeek": "Aucune dépense enregistrée cette semaine",
+    "total": "Total"
+  },
+
+  "schedule": {
+    "title": "Agenda",
+    "sub": "Gérez vos événements et rendez-vous",
+    "subscribe": "S'abonner",
+    "import": "Importer",
+    "export": "Exporter",
+    "newEvent": "+ Nouvel événement",
+    "month": "Mois",
+    "week": "Semaine",
+    "year": "Année",
+    "selectDay": "Sélectionnez un jour pour voir les événements",
+    "noEventsToday": "Aucun événement ce jour"
+  },
+
+  "event": {
+    "editTitle": "Modifier l'événement",
+    "newTitle": "Nouvel événement",
+    "tabSingle": "Unique",
+    "tabRange": "Période",
+    "tabImport": "Importer",
+    "date": "Date",
+    "start": "Début",
+    "end": "Fin",
+    "titlePlaceholder": "Titre de l'événement",
+    "notesPlaceholder": "Notes (facultatif)",
+    "spansdays": "Sur {{count}} jour(s)",
+    "delete": "Supprimer",
+    "exportBtn": "↓ Exporter",
+    "update": "Mettre à jour",
+    "addEvent": "Ajouter un événement",
+    "importBtn": "Importer {{count}} événement(s)",
+    "dropZonePrimary": "Déposez un fichier .ics ici",
+    "dropZoneSecondary": "ou cliquez pour parcourir — compatible Google Agenda, Outlook, Apple Calendrier",
+    "errorInvalidFile": "Veuillez sélectionner un fichier .ics valide.",
+    "errorNoEvents": "Aucun événement trouvé dans ce fichier.",
+    "errorParseFailed": "Impossible d'analyser ce fichier.",
+    "importReady": "{{count}} événement(s) trouvé(s) — prêt à importer"
+  },
+
+  "confirm": {
+    "deleteQuestion": "Supprimer ?",
+    "cancel": "Annuler",
+    "delete": "Supprimer"
+  },
+
+  "expenses": {
+    "title": "Dépenses",
+    "sub": "Suivez et gérez vos dépenses",
+    "reportSub": "Rapport mensuel des dépenses",
+    "addExpense": "Ajouter une dépense",
+    "editExpense": "Modifier la dépense",
+    "saveChanges": "Enregistrer",
+    "cancel": "Annuler",
+    "back": "Retour",
+    "searchPlaceholder": "Rechercher des dépenses...",
+    "noExpensesFound": "Aucune dépense trouvée.",
+    "allCategories": "Toutes les catégories",
+    "filterByDate": "Filtrer par date",
+    "dateRangeTitle": "Sélectionner une plage de dates",
+    "from": "Du",
+    "to": "Au",
+    "dateStart": "Début",
+    "dateEnd": "Fin",
+    "clear": "Effacer",
+    "apply": "Appliquer",
+    "monthlyReport": "Rapport mensuel",
+    "statTotal": "TOTAL",
+    "statThisMonth": "CE MOIS-CI",
+    "statDailyAvg": "MOYENNE JOURNALIÈRE",
+    "statTopCategory": "CATÉGORIE PRINCIPALE",
+    "moreSuffix": "+{{count}} de plus",
+    "fieldName": "Nom",
+    "namePlaceholder": "ex. Café & Déjeuner",
+    "fieldAmount": "Montant",
+    "fieldDate": "Date",
+    "fieldCategory": "Catégorie",
+    "errorName": "Veuillez entrer un nom.",
+    "errorAmount": "Veuillez entrer un montant valide.",
+    "errorDate": "Veuillez sélectionner une date.",
+    "categories": {
+      "food": "Alimentation",
+      "transport": "Transport",
+      "entertainment": "Divertissement",
+      "shopping": "Shopping",
+      "bills": "Factures",
+      "health": "Santé",
+      "education": "Éducation",
+      "travel": "Voyage",
+      "other": "Autre"
+    }
+  }
+}

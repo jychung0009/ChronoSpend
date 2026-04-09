@@ -1,0 +1,143 @@
+{
+  "brand": {
+    "name": "ChronoSpend",
+    "tagline": "スケジュール · 支出 · シンプルに"
+  },
+
+  "nav": {
+    "dashboard": "ダッシュボード",
+    "schedule": "スケジュール",
+    "expenses": "支出",
+    "signOut": "サインアウト"
+  },
+
+  "auth": {
+    "welcomeBack": "おかえりなさい",
+    "createAccount": "アカウントを作成",
+    "signInSub": "サインインしてスケジュールと支出を確認しましょう。",
+    "signUpSub": "登録してスケジュールと支出の管理を始めましょう。",
+    "email": "メールアドレス",
+    "emailPlaceholder": "you@example.com",
+    "password": "パスワード",
+    "passwordPlaceholder": "••••••••",
+    "errorEmailPassword": "メールアドレスとパスワードを入力してください。",
+    "errorPasswordLength": "パスワードは6文字以上である必要があります。",
+    "confirmEmail": "確認リンクをメールに送信しました。確認後にサインインしてください。",
+    "loading": "お待ちください…",
+    "signIn": "サインイン",
+    "signUp": "サインアップ",
+    "createAccountBtn": "アカウントを作成",
+    "noAccount": "アカウントをお持ちでないですか？",
+    "alreadyAccount": "すでにアカウントをお持ちですか？"
+  },
+
+  "dashboard": {
+    "goodMorning": "おはようございます",
+    "goodAfternoon": "こんにちは",
+    "goodEvening": "こんばんは",
+    "today": "今日",
+    "tomorrow": "明日",
+    "todayEvents": "今日の予定",
+    "upcomingEvents": "近日の予定",
+    "thisMonthSpent": "今月の支出",
+    "transactions": "取引",
+    "thisMonth": "今月",
+    "upcomingEventsPanel": "近日の予定",
+    "noUpcomingEvents": "近日の予定はありません",
+    "thisWeekSpending": "今週の支出",
+    "noSpendingThisWeek": "今週の支出は記録されていません",
+    "total": "合計"
+  },
+
+  "schedule": {
+    "title": "スケジュール",
+    "sub": "予定と約束を管理しましょう",
+    "subscribe": "購読",
+    "import": "インポート",
+    "export": "エクスポート",
+    "newEvent": "+ 新しい予定",
+    "month": "月",
+    "week": "週",
+    "year": "年",
+    "selectDay": "日付を選択して予定を確認",
+    "noEventsToday": "この日の予定はありません"
+  },
+
+  "event": {
+    "editTitle": "予定を編集",
+    "newTitle": "新しい予定",
+    "tabSingle": "単日",
+    "tabRange": "期間",
+    "tabImport": "インポート",
+    "date": "日付",
+    "start": "開始",
+    "end": "終了",
+    "titlePlaceholder": "予定のタイトル",
+    "notesPlaceholder": "メモ（任意）",
+    "spansdays": "{{count}}日間",
+    "delete": "削除",
+    "exportBtn": "↓ エクスポート",
+    "update": "更新",
+    "addEvent": "予定を追加",
+    "importBtn": "{{count}}件の予定をインポート",
+    "dropZonePrimary": ".ics ファイルをここにドロップ",
+    "dropZoneSecondary": "またはクリックして参照 — Google カレンダー、Outlook、Apple カレンダー対応",
+    "errorInvalidFile": "有効な .ics カレンダーファイルを選択してください。",
+    "errorNoEvents": "このファイルに予定が見つかりませんでした。",
+    "errorParseFailed": "ファイルを解析できませんでした。",
+    "importReady": "{{count}}件の予定が見つかりました — インポート準備完了"
+  },
+
+  "confirm": {
+    "deleteQuestion": "削除しますか？",
+    "cancel": "キャンセル",
+    "delete": "削除"
+  },
+
+  "expenses": {
+    "title": "支出",
+    "sub": "支出を追跡・管理しましょう",
+    "reportSub": "月次支出レポート",
+    "addExpense": "支出を追加",
+    "editExpense": "支出を編集",
+    "saveChanges": "変更を保存",
+    "cancel": "キャンセル",
+    "back": "戻る",
+    "searchPlaceholder": "支出を検索...",
+    "noExpensesFound": "支出が見つかりません。",
+    "allCategories": "すべてのカテゴリ",
+    "filterByDate": "日付でフィルター",
+    "dateRangeTitle": "日付範囲を選択",
+    "from": "開始日",
+    "to": "終了日",
+    "dateStart": "開始",
+    "dateEnd": "終了",
+    "clear": "クリア",
+    "apply": "適用",
+    "monthlyReport": "月次レポート",
+    "statTotal": "合計",
+    "statThisMonth": "今月",
+    "statDailyAvg": "日平均",
+    "statTopCategory": "主なカテゴリ",
+    "moreSuffix": "+{{count}}件",
+    "fieldName": "名前",
+    "namePlaceholder": "例：コーヒー＆ランチ",
+    "fieldAmount": "金額",
+    "fieldDate": "日付",
+    "fieldCategory": "カテゴリ",
+    "errorName": "名前を入力してください。",
+    "errorAmount": "有効な金額を入力してください。",
+    "errorDate": "日付を選択してください。",
+    "categories": {
+      "food": "食費",
+      "transport": "交通費",
+      "entertainment": "娯楽",
+      "shopping": "ショッピング",
+      "bills": "請求書",
+      "health": "医療・健康",
+      "education": "教育",
+      "travel": "旅行",
+      "other": "その他"
+    }
+  }
+}

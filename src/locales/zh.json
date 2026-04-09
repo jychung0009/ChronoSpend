@@ -1,0 +1,143 @@
+{
+  "brand": {
+    "name": "ChronoSpend",
+    "tagline": "日程 · 支出 · 简单生活"
+  },
+
+  "nav": {
+    "dashboard": "仪表盘",
+    "schedule": "日程",
+    "expenses": "支出",
+    "signOut": "退出登录"
+  },
+
+  "auth": {
+    "welcomeBack": "欢迎回来",
+    "createAccount": "创建账户",
+    "signInSub": "登录以查看您的日程和支出。",
+    "signUpSub": "注册以开始管理您的日程和支出。",
+    "email": "电子邮件",
+    "emailPlaceholder": "you@example.com",
+    "password": "密码",
+    "passwordPlaceholder": "••••••••",
+    "errorEmailPassword": "请输入您的电子邮件和密码。",
+    "errorPasswordLength": "密码至少需要6个字符。",
+    "confirmEmail": "请查看您的邮件以获取确认链接，然后登录。",
+    "loading": "请稍候…",
+    "signIn": "登录",
+    "signUp": "注册",
+    "createAccountBtn": "创建账户",
+    "noAccount": "还没有账户？",
+    "alreadyAccount": "已有账户？"
+  },
+
+  "dashboard": {
+    "goodMorning": "早上好",
+    "goodAfternoon": "下午好",
+    "goodEvening": "晚上好",
+    "today": "今天",
+    "tomorrow": "明天",
+    "todayEvents": "今日活动",
+    "upcomingEvents": "即将到来的活动",
+    "thisMonthSpent": "本月支出",
+    "transactions": "交易记录",
+    "thisMonth": "本月",
+    "upcomingEventsPanel": "即将到来的活动",
+    "noUpcomingEvents": "没有即将到来的活动",
+    "thisWeekSpending": "本周支出",
+    "noSpendingThisWeek": "本周暂无支出记录",
+    "total": "合计"
+  },
+
+  "schedule": {
+    "title": "日程",
+    "sub": "管理您的活动和约会",
+    "subscribe": "订阅",
+    "import": "导入",
+    "export": "导出",
+    "newEvent": "+ 新建活动",
+    "month": "月",
+    "week": "周",
+    "year": "年",
+    "selectDay": "选择一天以查看活动",
+    "noEventsToday": "今天没有活动"
+  },
+
+  "event": {
+    "editTitle": "编辑活动",
+    "newTitle": "新建活动",
+    "tabSingle": "单日",
+    "tabRange": "范围",
+    "tabImport": "导入",
+    "date": "日期",
+    "start": "开始",
+    "end": "结束",
+    "titlePlaceholder": "活动标题",
+    "notesPlaceholder": "备注（可选）",
+    "spansdays": "跨越 {{count}} 天",
+    "delete": "删除",
+    "exportBtn": "↓ 导出",
+    "update": "更新",
+    "addEvent": "添加活动",
+    "importBtn": "导入 {{count}} 个活动",
+    "dropZonePrimary": "将 .ics 文件拖放到此处",
+    "dropZoneSecondary": "或点击浏览 — 支持 Google 日历、Outlook、Apple 日历",
+    "errorInvalidFile": "请选择有效的 .ics 日历文件。",
+    "errorNoEvents": "此文件中未找到活动。",
+    "errorParseFailed": "无法解析此文件。",
+    "importReady": "找到 {{count}} 个活动 — 准备导入"
+  },
+
+  "confirm": {
+    "deleteQuestion": "确认删除？",
+    "cancel": "取消",
+    "delete": "删除"
+  },
+
+  "expenses": {
+    "title": "支出",
+    "sub": "追踪和管理您的支出",
+    "reportSub": "月度支出报告",
+    "addExpense": "添加支出",
+    "editExpense": "编辑支出",
+    "saveChanges": "保存更改",
+    "cancel": "取消",
+    "back": "返回",
+    "searchPlaceholder": "搜索支出...",
+    "noExpensesFound": "未找到支出记录。",
+    "allCategories": "所有类别",
+    "filterByDate": "按日期筛选",
+    "dateRangeTitle": "选择日期范围",
+    "from": "从",
+    "to": "至",
+    "dateStart": "开始",
+    "dateEnd": "结束",
+    "clear": "清除",
+    "apply": "应用",
+    "monthlyReport": "月度报告",
+    "statTotal": "总计",
+    "statThisMonth": "本月",
+    "statDailyAvg": "日均支出",
+    "statTopCategory": "主要类别",
+    "moreSuffix": "+{{count}} 更多",
+    "fieldName": "名称",
+    "namePlaceholder": "例：咖啡和午餐",
+    "fieldAmount": "金额",
+    "fieldDate": "日期",
+    "fieldCategory": "类别",
+    "errorName": "请输入名称。",
+    "errorAmount": "请输入有效金额。",
+    "errorDate": "请选择日期。",
+    "categories": {
+      "food": "餐饮",
+      "transport": "交通",
+      "entertainment": "娱乐",
+      "shopping": "购物",
+      "bills": "账单",
+      "health": "健康",
+      "education": "教育",
+      "travel": "旅行",
+      "other": "其他"
+    }
+  }
+}
